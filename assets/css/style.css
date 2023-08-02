@@ -1,0 +1,83 @@
+*{
+	font-family: sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+#hero{
+	background: url('../img/bg.jpg');
+	width: 100%;
+	height: 100vh;
+	background-position: bottom;
+	background-size: cover;
+}
+nav .btn{
+	background: #218838;
+}
+#hero .center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#Store p{
+	font-size: 16px;
+}
+#Store h3{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+#Store .store-item a{
+	color: #9a9a9a;
+	text-transform: uppercase;
+	font-size: 15px;
+	display: block;
+	text-align: left;
+}
+#Reviews img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+#Reviews .carousel-indicators{
+	bottom: -90px;
+}
+#Contact .hover{
+	transition: 0.8s;
+}
+#Contact .hover1:hover .hover{
+	margin-left: 1rem !important;
+	transition: 0.8s;
+}
+.modal .a{
+	font-size: 12px !important	;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#Store p{
+		text-align: center !important;
+	}
+	#Store h3{
+		text-align: center !important;
+	}
+	#Store .store-item a{
+		display: inline-block;
+		text-align: center;
+		margin-left: 1rem;
+		margin-bottom: 1.5rem;
+	}
+}
+@media screen and (max-width: 767px){
+	#Store p{
+		text-align: center !important;
+	}
+	#Store h3{
+		text-align: center !important;
+	}
+	#Store .store-item a{
+		display: inline-block;
+		text-align: center;
+		/*margin-left: 1rem;*/
+		margin-bottom: 1.5rem;
+	}
+}
